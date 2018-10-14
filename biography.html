@@ -2,12 +2,48 @@
 <html lang="en">
 <head>
    <meta charset="utf-8">
-   <title>Biography</title>
+   <title>Index</title>
    <link rel="stylesheet" type="text/css" href="main.css" />
-   
+   <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="desktop.css" />
+   <link rel="stylesheet" media="screen and (max-device-width: 800px)" href="mobile.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="text/javascript" src="js/nav-bar.js"></script>
 </head>
 <body>
-Biography
+	<div class="main-container">
+		<div class="header">
+			<h1> Grace McElhone </h1>
+			<h2> Kalamazoo </h2>
+		</div>
+		<div class="mobile-nav-bar" onclick="mobileNavBar(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<nav id="mobile-nav-buttons">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="biography.html"><li>Biography</li></a>
+				<a href="discography.html"><li>Discography</li></a>
+				<a href="catalog.html"><li>Events</li></a>
+			</ul>
+		</nav>
+		<nav class="nav-bar">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="biography.html"><li>Biography</li></a>
+				<a href="discography.html"><li>Discography</li></a>
+				<a href="catalog.html"><li>Events</li></a>
+			</ul>
+		</nav>
+		<div class="content-container">
+			Biography
+		</div>
+		<div class="footer">
+			Website Created by Nick Huffman and Eric Larson. 
+			<a href="about.html">About us</a>
+		</div>
+	</div>
 
 </body>
 </html>
